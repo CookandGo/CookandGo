@@ -1,0 +1,72 @@
+#social-buttons button {
+color: white;
+}
+
+#social-buttons {
+background-color: #d9d9d9
+}
+
+#social-buttons p {
+font-size:15pt;
+}
+
+.btn-twitter {
+background-color: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background-color: #4868ac;
+border-color: #314776;
+}
+.btn-pinterest {
+background-color: #b62f26;
+border-color: #b62f26;
+}
+
+.jumbotron {
+min-height: 480px;
+background-image: url('images/Canada.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+#heading {
+color: white;
+text-align: center;
+font-size: 70pt;
+}
+
+#overview {
+background-color: #fcfcfc
+}
+
+#overview_p {
+text-align: left ;
+}
+
+#other_dishes img {
+height:250px;
+width:350px ;
+}
+
+#poutine {
+background-color: #800000;
+color: #f2f2f2;
+}
+
+#recipe_buttons {
+color: #4d0000;
+}
+
+#nanaimo_bar {
+background-color: #fcfcfc
+}
+
+#other_dishes {
+background-color: #800000;
+color: #f2f2f2;
+}
+
+body {
+  padding-top: 50px;
+}

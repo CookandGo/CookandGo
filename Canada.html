@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="images/favicon.ico">
+
   <title>Canada Cuisine</title>
+
+  <link href='bootstrap-4.0.0-beta.2-dist/css/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="./CanadaCSS.css">
+
   <style>
       ul.nav li{
           display:inline-block;
@@ -25,72 +37,136 @@
 
 <body>
 
-  <ul class='nav'>
-      <li class="nav_label"><a href="#overview">Cuisine Overview</a></li>
-      <li class="nav_label"><a href="#poutine">Poutine</a></li>
-      <li class="nav_label"><a href="#nanaimo_bar">Nanaimo Bar</a></li>
-      <li class="nav_label"><a href="#other_dishes">Other Canadian Cuisine</a></li>
-  </ul>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cook and Go</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+   </nav>
 
-  <div id=overview>
+  <div class='jumbotron'>
+  <div class="container">
+  
+    <ul class='nav'>
+        <li class="nav_label"><a href="#overview">Cuisine Overview</a></li>
+        <li class="nav_label"><a href="#poutine">Poutine</a></li>
+        <li class="nav_label"><a href="#nanaimo_bar">Nanaimo Bar</a></li>
+        <li class="nav_label"><a href="#other_dishes">Other Canadian Cuisine</a></li>
+    </ul>
 
-    <h1> Canadian Cuisine Overview </h1>
+    <br>
+    <br>
+    <br>
+ 
 
-    <p>
-      A country pride on her multicultural diversity, Canada enjoys a wide-range of cuisines and draws
-      inspirations from across the world. English and French settlements in the East Coast influenced
-      earlier Canadian cuisines. This European influence combined with locally sourced ingredients
-      formed some of the most unique and iconic Canadian cuisines, the most famous among them are
-      poutine and maple syrup products. Starting from the 19th century, large-waves of immigrants
-      from regions such as East and South Asia, Central and Eastern Europe, the Caribbean, India
-      and the Middle East brought their share of creativeness to the Canadian cuisine.
-      The West Coast of Canada enjoys a heavy influence from the Aboriginal People: from the
-      Nanaimo bar named after the City of Nanaimo to the thousand-years of practices in preserving
-      and cooking wild salmon. It is difficult to pin down what Canadian cuisine really is due to
-      its diverse sources of origin. Then again, it is the amazingly flexible, creative, and
-      adaptive nature of this multicultural country that gives Canada a unique flavour in taste.
-    </p>
-
+    <h1 id='heading'> Canadian Cuisine </h1>
+    
   </div>
+  </div>
+      
+  <div id="overview">
+    <div class="container">
+
+      <br>
+
+      <h1> Overview </h1>
+
+      <p id=overview_p class="lead">
+        A country pride on her multicultural diversity, Canada enjoys a wide-range of cuisines and draws
+        inspirations from across the world. English and French settlements in the East Coast influenced
+        earlier Canadian cuisines. This European influence combined with locally sourced ingredients
+        formed some of the most unique and iconic Canadian cuisines, the most famous among them are
+        poutine and maple syrup products. Starting from the 19th century, large-waves of immigrants
+        from regions such as East and South Asia, Central and Eastern Europe, the Caribbean, India
+        and the Middle East brought their share of creativeness to the Canadian cuisine.
+        The West Coast of Canada enjoys a heavy influence from the Aboriginal People: from the
+        Nanaimo bar named after the City of Nanaimo to the thousand-years of practices in preserving
+        and cooking wild salmon. It is difficult to pin down what Canadian cuisine really is due to
+        its diverse sources of origin. Then again, it is the amazingly flexible, creative, and
+        adaptive nature of this multicultural country that gives Canada a unique flavour in taste.
+      </p>
+
+    </div>
+               <br>
+               <br>
+               <br>
+  </div>
+
+  
 
   <div id=poutine>
 
+    <div class="container">
+
+  <br>
+  <br>
+
     <h2> Poutine </h2>
 
-    <ul class='nav_poutine'>
-        <li class="nav_label_p"><a href="#poutine_description">What is poutine?</a></li>
-    </ul>
+    <h4> What is Poutine? </h4>
 
-    <p id=poutine_description>
-      signature dish in  Quebec xxxxxxxx
-    </p>
+    <div class='row'>
+      <div class='col-sm-5'>
+        <p id=poutine_description>
+          signature dish in  Quebec xxxxxxxx
+        </p>
 
-      <img src="../images/poutine.jpg" alt="A picture of poutine">
+      </div>
+      <div class='col-sm-7'>
+        <img src="images/poutine.jpg" class="img-thumbnail center-block img-responsive" alt="A picture of poutine">
+      </div>
+    </div>
 
-    <ul class='nav_poutine'>
-        <li class="nav_label_p"><a href="#poutine_recipe">Recipe for poutine</a></li>
-    </ul>
+    <div id='recipe_buttons'>
+      <a onclick="window.open('http://allrecipes.com/recipe/79300/real-poutine/')" type="button" class="btn btn-Default btn-lg" role="button"> Click for Recipe </a>
+    </div>
 
-    <p id=poutine_recipe>
-      recipe for poutine
-    </p>
+    <br>
+    <br>
+    <br>
+
+    </div>
 
   </div>
+
+  
 
 
   <div id=nanaimo_bar>
 
+    <div class="container">
+      <br>
+      <br>
     <h2> Nainamo Bar </h2>
 
     <ul class='nav_NaiBar'>
         <li class="nav_label_n"><a href="#NaiBar_description">What is Nanaimo bar?</a></li>
     </ul>
 
-    <p id=NaiBar_description>
-      signature dish in  West Coast city of Nanaimo xxxxxxxx
-    </p>
-
-      <img src="../images/nanaimobar.jpg" alt="A picture of Nanaimo Bar">
+    <div class='row'>
+      <div class='col-sm-5'>
+        <p id=NaiBar_description>
+          signature dish in  West Coast city of Nanaimo xxxxxxxx
+        </p>
+      </div>
+      <div class='col-sm-7'>
+        <img src="images/nanaimobar.jpg" class="img-thumbnail center-block img-responsive" alt="A picture of Nanaimo Bar">
+      </div>
+    </div>
 
     <ul class='nav_NaiBar'>
         <li class="nav_label_n"><a href="#NaiBar_recipe">Recipe for Nainamo Bar</a></li>
@@ -100,28 +176,68 @@
       recipe for Nanaimo Bar
     </p>
 
+
+    <br>
+    <br>
+    <br>
+
+
+    </div>
+
   </div>
 
 
   <div id=other_dishes>
 
+    <div class="container">
+
+    <br>
+    <br>
+
+
     <h2> Other Canadian Cuisine </h2>
 
-    <h3> Maple Syrup </h3>
+    <div class='row'>
+      <div class='col-sm-4'>
+        <h4> Maple Syrup </h4>
+        <img src="images/maplesyrup.jpg" class="img-thumbnail center-block img-responsive" alt="A picture of Maple Syrup">
+      </div>
+      <div class='col-sm-4'>
+        <h4> Montréal Bagel </h4>
+        <img src="images/montrealbagel.jpg" class="img-thumbnail center-block img-responsive" alt="A picture of Montréal Bagel">
+      </div>
+      <div class='col-sm-4'>
+        <h4> Wild Pacific Salmon </h4>
+        <img src="images/salmon.jpg" class="img-thumbnail center-block img-responsive" alt="A picture of Sockeye Salmon">
+      </div>
+    </div>
 
-    <img src="../images/maplesyrup.jpg" alt="A picture of Maple Syrup">
 
-    <h3> Montréal Bagel </h3>
+    <br>
+    <br>
+    <br>
 
-    <img src="../images/montrealbagel.jpg" alt="A picture of Montréal Bagel">
 
-    <h3> Wild Pacific Salmon </h3>
-
-    <img src="../images/salmon.jpg" alt="A picture of Sockeye Salmon">
-
+    </div>
   </div>
 
 
+ <div id='social-buttons'>
+   <div class="container">
+      <br>
+      <br>
+      <p> Contact Us </p>
+      <br>
+      <button class='btn-twitter btn-lg'>Twitter</button>
+      <button class='btn-facebook btn-lg'>Facebook</button>
+      <button class='btn-pinterest btn-lg'>Pinterest</button>
+      <br>
+      <br>
+      <br>
+   </div>
+ </div>
+
+  
 
 
 
