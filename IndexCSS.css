@@ -39,6 +39,14 @@ font-size: 70pt;
 font-family: Arial;
 }
 
+a#fork span{
+  background-image:url('images/indexlogo2.gif');
+}
+
+a#fork:hover span{
+  background-image:url('images/indexlogo1.gif');
+}
+
 #overview {
 background-color: #fcfcfc
 }
