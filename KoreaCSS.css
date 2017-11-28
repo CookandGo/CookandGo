@@ -1,0 +1,138 @@
+#social-buttons button {
+color: white;
+}
+
+#social-buttons {
+background-color: #d9d9d9;
+text-align: center;
+}
+
+#social-buttons p {
+font-size:15pt;
+}
+
+.btn-twitter {
+background-color: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background-color: #4868ac;
+border-color: #314776;
+}
+.btn-pinterest {
+background-color: #b62f26;
+border-color: #b62f26;
+}
+
+.jumbotron {
+min-height: 480px;
+background-image: url('images/Korea.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+#heading {
+color: white;
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size: 70pt;
+font-family: Arial;
+}
+
+#overview {
+background-color: #fcfcfc
+}
+
+#overview_p {
+text-align: left ;
+}
+
+#other_dishes img {
+height:250px;
+width:350px ;
+}
+
+#soup {
+background-color: #1C548D;
+color: #f2f2f2;
+}
+
+#recipe_buttons {
+color: #4d0000;
+}
+
+#bread {
+background-color: #fcfcfc
+}
+
+#other_dishes {
+background-color: #1C548D;
+color: #f2f2f2;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index:999;
+ }
+
+.sf-back-to-top {
+    background-color: #50A1CB; /* button color */
+    color: white; /* text/arrow color */ 
+    display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* size of button is 50 pixels*/
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.sf-back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 4px;    
+}
+
+a.sf-back-to-top .arrow:before {
+    content: "\e02d";
+    font-family: 'squarespace-ui-font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\e02d";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: -4px;
+}
