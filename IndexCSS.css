@@ -25,7 +25,7 @@ border-color: #b62f26;
 }
 
 .jumbotron {
-min-height: 2708px;
+min-height: 2000px;
 background-image: url('images/indexbackgroundfinal.jpg');
 background-size: cover;
 background-attachment: fixed;
@@ -39,45 +39,29 @@ font-size: 70pt;
 font-family: Arial;
 }
 
-a#fork span{
-  background-image:url('images/indexlogo2.gif');
+.fork {
+  width: 1100px;
+  height: 180px;
+  z-index: 900;
+  background-image:url('images/indexlogo2a.gif');
 }
 
-a#fork:hover span{
-  background-image:url('images/indexlogo1.gif');
+.fork:hover {
+  width: 1100px;
+  height: 180px;
+  z-index: 900;
+  background-image:url('images/indexlogo1a.gif');
 }
 
-#overview {
-background-color: #fcfcfc
+.row {
+    text-align:center;
 }
 
-#overview_p {
-text-align: left ;
+#group-photo {
+    display: block;
+    margin: auto;
+    width:70%;
 }
-
-#other_dishes img {
-height:250px;
-width:350px ;
-}
-
-#soup {
-background-color: #1C548D;
-color: #f2f2f2;
-}
-
-#recipe_buttons {
-color: #4d0000;
-}
-
-#bread {
-background-color: #fcfcfc
-}
-
-#other_dishes {
-background-color: #1C548D;
-color: #f2f2f2;
-}
-
 
 body {
   padding-top: 50px;
@@ -144,4 +128,72 @@ a.sf-back-to-top .arrow:before {
     -o-transform: rotate(-90deg);
     cursor: pointer;
     margin-left: -4px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+#social-buttons {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin: 0 auto;
+background-color: #354044;
+font-size: 16px;
+}
+
+#contactform {
+  margin-bottom: 20px;
+}
+
+input {
+  max-width: 400px;
+  width: 80%;
+  height: 1.8rem;
+  border: 0;
+}
+
+textarea {
+  max-width: 1000px;
+  border: 0;
+  height: 150px;
+}
+
+label {
+  color:#cdccd0;
+}
+
+button {
+  background-color: #98554F;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 150px;
+  width: 80%;
+  border: 0;
+  color: #FDFEFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #FDFEFF;
+  color: #98554F;
+}
+
+.btn-twitter {  background-color: #98554F;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 150px;
+  width: 80%;
+  border: 0;
+  color: #FDFEFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.btn-twitter:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #FDFEFF;
+  color: #98554F;
 }

@@ -20,3 +20,6 @@ $('a.sf-back-to-top').click(function() {
     }, 700);
     return false;
 });
+
+
+//dynamic form//

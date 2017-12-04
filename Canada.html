@@ -35,16 +35,13 @@
               <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+              <a class="nav-link js-scroll-trigger" href="Canada.html">Canadian Cuisine</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#poutine">Poutine</a>
+              <a class="nav-link js-scroll-trigger" href="Ireland.html">Irish Cuisine</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#nanaimo_bar">Nanaimo Bar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#other_dishes">Other Canadian Cuisine</a>
+              <a class="nav-link js-scroll-trigger" href="Korea.html">Korean Cuisine</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#social-buttons">Contact Us</a>
@@ -113,8 +110,15 @@
     <div class='row'>
       <div class='col-sm-5'>
         <p id=poutine_description>
-          signature dish in  Quebec xxxxxxxx
+          Poutine is a signature dish originated in the French-speaking province of Québec. It is originally served in French fries, cheese curds, and brown gravy; other forms of topping such as onions and mushrooms are sometimes used as well. Although not very popular when it was first invented in the 1950s, poutine has became a French-Canadian and even a Canadian favorite dish. It also gained momentum internationally, in the neighbouring states of the U.S.A. and when representing Canada gloablly.
         </p>
+
+        <br>
+        <br>
+
+	    <div id='recipe_buttons'>
+	      <a onclick="window.open('http://allrecipes.com/recipe/79300/real-poutine/')" type="button" class="btn btn-Default btn-lg" role="button"> Click for Recipe </a>
+	    </div>
 
       </div>
       <div class='col-sm-7'>
@@ -122,9 +126,7 @@
       </div>
     </div>
 
-    <div id='recipe_buttons'>
-      <a onclick="window.open('http://allrecipes.com/recipe/79300/real-poutine/')" type="button" class="btn btn-Default btn-lg" role="button"> Click for Recipe </a>
-    </div>
+
 
     <br>
     <br>
@@ -151,8 +153,15 @@
     <div class='row'>
       <div class='col-sm-5'>
         <p id=poutine_description>
-          signature dish in  Quebec xxxxxxxx
+          It is a bar dessert which requires no baking and is named after the city of Nanaimo, British Columbia on Vancouver Island. It consists of a wafer crumb-based layer topped by a layer of custard flavoured butter icing which is covered with melted chocolate made from chocolate squares. Many varieties exist, consisting of different types of crumb, different flavours of icing (e.g., mint, peanut butter, coconut, mocha), and different types of chocolate.
         </p>
+
+        <br>
+        <br>
+
+        <div id='recipe_buttons'>
+  			<a onclick="window.open('http://allrecipes.co.uk/recipe/20624/canadian-nanaimo-bars.aspx')" type="button" class="btn btn-Default btn-lg" role="button"> Click for Recipe </a>
+		</div>
 
       </div>
       <div class='col-sm-7'>
@@ -160,9 +169,7 @@
       </div>
     </div>
 
-    <div id='recipe_buttons'>
-      <a onclick="window.open('http://allrecipes.co.uk/recipe/20624/canadian-nanaimo-bars.aspx')" type="button" class="btn btn-Default btn-lg" role="button"> Click for Recipe </a>
-    </div>
+
 
     <br>
     <br>
@@ -212,31 +219,43 @@
    <div class="container">
       <br>
       <br>
-      <p> Contact Us </p>
+      <h2 style="color:#cdccd0"> Contact Us </h2>
       <br>
 
-      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-      Name:<br>
-      <input type="text" name="name"><br>
-      E-mail:<br>
-      <input type="text" name="mail"><br>
-      Comment:<br>
-      <input type="text" name="comment" size="50"><br><br>
-      <input type="submit" value="Send">
-      <input type="reset" value="Reset">
+  <div id="contactform">
+      
+      <form>
+        <div>
+          <label for="name">Name*</label>
+          <input  id="name" type="text" name="name" required>
+       </div>
+       <div>
+         <label for="email">Email*</label>
+         <input id="email" type="email" name="email" required>
+       </div>
+       <div>
+         <label for="message">What can we help you with?*</label><br>
+         <textarea id="message" name="message" required></textarea>
+      </div>
+        <button type="submit">Send</button>
       </form>
-      <br>
-      <br>
+  </div>
+   </div>
+
       <br>
       
-      <button class='btn-twitter btn-lg'>Twitter</button>
+      <a id='social-media' onclick="window.open('http://www.Twitter.com')" type="button" class="btn-twitter btn-lg" role="button"> Twitter </a>
       <button class='btn-facebook btn-lg'>Facebook</button>
       <button class='btn-pinterest btn-lg'>Pinterest</button>
       <br>
       <br>
       <br>
-   </div>
  </div>
+ 
+
+ 
+
+
 
   
 <a href="#" class="sf-back-to-top"><span class="arrow"></span>Top</a>
