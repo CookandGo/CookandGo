@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+
+<div class="zoom">
+  
 <head>
 
   <meta charset="utf-8">
@@ -73,7 +76,9 @@
       <br>
 
       <h1> Overview </h1>
-
+      
+      <br>
+      
       <p id=overview_p class="lead">
         Korean cuisine has gone through continuous evolution through social and political change. Korean cuisine is largely based on rice, vegetables and meats. Traditional meals tend to have a variety of side dishes that accompany short-grain rides. One popular side dish is seaweed soup, which is one of the recipes the page will be showing you. 
 
@@ -82,8 +87,7 @@
 
     </div>
                <br>
-               <br>
-               <br>
+              
   </div>
 
   
@@ -97,17 +101,21 @@
 
     <h2> Seaweed Soup </h2>
   <br>
+  <br>
+  <br>
     <h4> What is Seaweed Soup? </h4>
+  <br>
        <p id=soup_description>
           Traditionally, seaweed soup is eaten on birthdays or after giving birth. But these days, seaweed soup is eaten all year around. Seaweed is rich in calcium and iodine which is greater for lowering cholesterol level. Seaweed soup can be eaten on its own but many Korean restaurants serve it as a side dish. Some also like to put mussels and beef brisket inside the soup. This recipe will have beef brisket but can be easily taken out for those who are vegetarian!
        </p>
+  <br>
   <br>
     <div class='row'>
       <div class='col-sm-5'>
         <p id=soup_receipe>
           <h5> Ingredients </h5>
   <br>
-           <ul><li>4 cups of soaked seaweed (1 cup of dried seaweed)
+           <ul id="ingredients" style="list-style-type:none"><li>4 cups of soaked seaweed (1 cup of dried seaweed)
             <li>16 cups of water
             <li>4 teaspoons of fish sauce
             <li>200 grams of beef brisket
@@ -122,9 +130,10 @@
       </div>
       
    <br>
-          <h5> Steps </h5>
+          <h5> Method </h5>
    <br>
-          <ol><li>Soak 1 cup of dried seaweed in a bowl for 30 minutes or more. Get rid of the water. Cut the seaweed into small, bite-size pieces. 
+          <ol id="Method">
+          <li>Soak 1 cup of dried seaweed in a bowl for 30 minutes or more. Get rid of the water. Cut the seaweed into small, bite-size pieces. 
           <li>Put the soaked seaweed into a big pot and add 16 cups of water. Boil on high heat for around 15 minutes. Add more water if the soup gets too thick.
           <li>Cut beef brisket into small pieces. Add the garlic and beef into the pot and boil for another 25 minutes over medium heat. 
           <li>Add fish sauce and add a few drops of sesame oil on top before serving.
@@ -133,17 +142,12 @@
     <br>
     <br>
         </p>
-
-     
+      </div>     
     </div>
 
     <br>
     <br>
     <br>
-
-    </div>
-
-  </div>
 
  <div id=bread>
 
@@ -164,7 +168,8 @@
         <p id=bread_receipe>
           <h5> Ingredients </h5>
      <br>
-           <ul><li>2 cups of cornmeal
+           <ul id="ingredients" style="list-style-type:none">
+            <li>2 cups of cornmeal
             <li>2 tablespoons of sugar
             <li>1/2 teaspoon of salt
             <li>1 parge egg
@@ -180,17 +185,17 @@
         </div>
       
       <br>
-          <h5> Steps </h5>
+          <h5> Method </h5>
       <br>
-          <ol><li>Combine the cornmeal, sugar, salt, egg, vegetable oil and milk in a bowl and mix well. Let it sit for 20 minutes.
+          <ol="Method">
+          <li>Combine the cornmeal, sugar, salt, egg, vegetable oil and milk in a bowl and mix well. Let it sit for 20 minutes.
           <li>Pre-heat the oven 200 degrees.
           <li>Add baking powder to the batter and mix well. Brush the butter around the sides and bottom of a baking pan (8-inch by 8-inch square)
           <li>Bake for 30 minutes and use a toothpick to check that bread is cooked. The toothpick should come out clean when inserted in the centre of the bread. 
           <li>Remove from oven and turn pan upside down and let the bread cool for a few minutes. 
           </ol>
       <br>
-      <br>
-      <br>
+      
         </p>
 
 
@@ -201,45 +206,47 @@
     <br>
     <br>
 
- <div id='social-buttons'>
+  <div id='social-buttons'>
    <div class="container">
       <br>
       <br>
-      <h2 style="color:#cdccd0"> Contact Us </h2>
+      <p> CONTACT FORM </p>
       <br>
 
-  <div id="contactform">
-      
-      <form>
-        <div>
-          <label for="name">Name*</label>
-          <input  id="name" type="text" name="name" required>
-       </div>
-       <div>
-         <label for="email">Email*</label>
-         <input id="email" type="email" name="email" required>
-       </div>
-       <div>
-         <label for="message">What can we help you with?*</label><br>
-         <textarea id="message" name="message" required></textarea>
-      </div>
-        <button type="submit">Send</button>
+      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br><br>
+      What can we help you with?<br>
+      <input type="text" name="What can we help you with?" size="50"><br><br>
+      <input id="send-button" type="submit" value="Send">
       </form>
-  </div>
- </div>
 
       <br>
-      
-      <a id='social-media' onclick="window.open('http://www.Twitter.com')" type="button" class="btn-twitter btn-lg" role="button"> Twitter </a>
-      <button class='btn-facebook btn-lg'>Facebook</button>
-      <button class='btn-pinterest btn-lg'>Pinterest</button>
       <br>
       <br>
-      <br>
+  </div>
+    <div id='social-media'>
+      <a onclick="window.open('http://www.Twitter.com')" type="button" class="btn-twitter btn-lg" role="button"> Twitter</a>
+      <a onclick="window.open('http://www.facebook.com')" type="button" class="btn-facebook btn-lg" role="button">Facebook</a>
+      <a onclick="window.open('http://www.pinterest.com')" type="button" class='btn-pinterest btn-lg' role="button">Pinterest</a>
+    </div>
+<br>
+<br>
+<br>
 </div>
 
-  
+<br>
+<br>
+
+
 <a href="#" class="sf-back-to-top"><span class="arrow"></span>Top</a>
 
+</div>
+
 </body>
+
+</div>
+
 </html>
