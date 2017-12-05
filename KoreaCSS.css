@@ -1,50 +1,93 @@
 #social-buttons button {
-color: white;
+color: black;
 }
 
 #social-buttons {
-background-color: #d9d9d9;
+background-color: #527a7a;
 text-align: center;
+color: white;
 }
 
 #social-buttons p {
 font-size:15pt;
 }
 
+#send-button , #Reset-button {
+width: 150px;
+height: 50px;
+}
+
+.zoom {
+zoom: 110%;
+}
+
 .btn-twitter {
 background-color: #00acee;
 border-color: #009ad5;
+width: 150px;
+height: 50px;
+padding: 10px;
+display:inline-block;
+text-align: center;
+font-size: 16px;
+color: white;
 }
 .btn-facebook {
 background-color: #4868ac;
 border-color: #314776;
+width: 150px;
+height: 50px;
+padding: 10px;
+display:inline-block;
+text-align: center;
+font-size: 16px;
+color: white;
 }
 .btn-pinterest {
 background-color: #b62f26;
 border-color: #b62f26;
+width: 150px;
+height: 50px;
+padding:10px;
+display:inline-block;
+text-align: center;
+font-size: 16px;
+color: white;
 }
 
 .jumbotron {
 min-height: 480px;
 background-image: url('images/Korea.jpg');
 background-size: cover;
-background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+text-align:center;
+margin:auto;
+padding:0;
 }
 
 #heading {
-color: white;
+color: #ffffff;
 text-align: center;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-font-size: 70pt;
-font-family: Arial;
+font-size: 95pt;
+font-family:"Garamond", sans-serif;
+font-weight: bold;
+line-height:2.5;
 }
 
 #overview {
-background-color: #fcfcfc
+background-color: #fcfcfc;
+text-align: center;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 80px;
+padding-left: 40px;
 }
 
 #overview_p {
-text-align: left ;
+text-align: center;
+font-size:20px;
 }
 
 #other_dishes img {
@@ -55,6 +98,10 @@ width:350px ;
 #soup {
 background-color: #1C548D;
 color: #f2f2f2;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
 }
 
 #soup img {
@@ -63,15 +110,24 @@ color: #f2f2f2;
   margin: auto;
   float: right;
   right: 100px;
-  border:10px solid #ffffff;
+  border:7px solid #ffffff;
 }
 
-#recipe_buttons {
-color: #4d0000;
+#ingredients {
+  font-size: 18px;
+  font-family:"Garamond", sans-serif;
+}
+#Steps {
+  font-size: 20px;
+  font-family:"Garamond", sans-serif;
 }
 
 #bread {
-background-color: #fcfcfc
+background-color: #fcfcfc;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
 }
 
 #bread img {
@@ -80,12 +136,7 @@ background-color: #fcfcfc
   margin: auto;
   float: right;
   right: 100px;
-  border:10px solid #ffffff;
-}
-
-#other_dishes {
-background-color: #1C548D;
-color: #f2f2f2;
+  border:7px solid #ffffff;
 }
 
 body {
@@ -155,6 +206,23 @@ a.sf-back-to-top .arrow:before {
     margin-left: -4px;
 }
 
+h1 {
+  text-align: center;
+  font-size: 350%;
+  font-family:"Garamond", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
 #social-buttons {
