@@ -12,7 +12,7 @@ color: #ffffff;
 font-size:15pt;
 }
 
-#send-button , {
+#send-button {
 width: 150px;
 height: 50px;
 background: #0066A2;
@@ -64,11 +64,7 @@ padding: 10px;
 min-height: 480px;
 background-image: url('images/Korea.jpg');
 background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-text-align:center;
-margin:auto;
-padding:0;
+background-attachment: fixed;
 }
 
 #heading {
