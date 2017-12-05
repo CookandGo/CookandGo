@@ -272,18 +272,6 @@ button:hover {
   color: #98554F;
 }
 
-.btn-twitter {  background-color: #98554F;
-  font-family: 'Open Sans', sans-serif;
-  max-width: 150px;
-  width: 80%;
-  border: 0;
-  color: #FDFEFF;
-  font-weight: 700;
-  font-size: 1.5rem;
-  padding: 10px 0;
-  cursor: pointer;
-}
-
 .btn-twitter:hover {
   transition: all 0.5s ease-in-out;
   background-color: #FDFEFF;
