@@ -1,23 +1,63 @@
 #social-buttons button {
-color: white;
+color: #000000;
 }
 
+#social-buttons {
+background-color: #527a7a;
+text-align: center;
+color: #ffffff;
+}
 
 #social-buttons p {
 font-size:15pt;
 }
 
+#send-button {
+  width: 150px;
+  height: 50px;
+  background: #0066A2;
+  color: #ffffff;
+}
+
+.zoom {
+  zoom: 110%;
+}
+
 .btn-twitter {
 background-color: #00acee;
 border-color: #009ad5;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 .btn-facebook {
 background-color: #4868ac;
 border-color: #314776;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 .btn-pinterest {
 background-color: #b62f26;
 border-color: #b62f26;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 
 .jumbotron {
@@ -28,19 +68,28 @@ background-attachment: fixed;
 }
 
 #heading {
-color: white;
+color: #ffffff;
 text-align: center;
-font-size: 70pt;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-font-family: Arial;
+font-size: 95pt;
+font-family:"Garamond", sans-serif;
+font-weight: bold;
+line-height:2.5;
 }
 
 #overview {
-background-color: #fcfcfc
+background-color: #fcfcfc;
+text-align: center;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 80px;
+padding-left: 40px;
 }
 
 #overview_p {
-text-align: left ;
+text-align: center;
+font-size: 20px;
+
 }
 
 #other_dishes img {
@@ -51,13 +100,19 @@ width:350px ;
 #poutine {
 background-color: #800000;
 color: #f2f2f2;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
 }
 
 #poutine img{
 width:500px;
 display: block;
 margin: auto;
-width:70%;
+float: right;
+right: 100px;
+border:7px solid #ffffff;
 }
 
 #recipe_buttons {
@@ -65,14 +120,21 @@ color: #4d0000;
 }
 
 #nanaimo_bar {
-background-color: #fcfcfc
+background-color: #fcfcfc;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
+
 }
 
 #nanaimo_bar img {
 width:500px;
 display: block;
 margin: auto;
-width:70%;
+float: right;
+right: 100px;
+border:7px solid #ffffff;
 }
 
 #other_dishes {
@@ -95,7 +157,7 @@ body {
 
 .sf-back-to-top {
     background-color: #50A1CB; /* button color */
-    color: white; /* text/arrow color */ 
+    color: #ffffff; /* text/arrow color */ 
     display: none;
     z-index: 999;
     /* float in bottom right corner */
@@ -147,7 +209,24 @@ a.sf-back-to-top .arrow:before {
     margin-left: -4px;
 }
 
+h1 {
+  text-align: center;
+  font-size: 350%;
+  font-family:"Garamond", sans-serif;
+}
 
+h2 {
+  text-align: center;
+  font-size: 300%;
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+  
+  
 /*dynamic form*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
