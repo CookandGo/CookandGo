@@ -1,11 +1,11 @@
 #social-buttons button {
-color: black;
+color: #000000;
 }
 
 #social-buttons {
 background-color: #527a7a;
 text-align: center;
-color: white;
+color: #ffffff;
 }
 
 #social-buttons p {
@@ -27,7 +27,7 @@ zoom: 110%;
 background-color: #00acee;
 border-color: #009ad5;
 text-align: center;
-color: white;
+color: #ffffff;
 border-style: outset;
 height: 50px;
 width: 100px;
@@ -39,7 +39,7 @@ padding: 10px;
 background-color: #4868ac;
 border-color: #314776;
 text-align: center;
-color: white;
+color: #ffffff;
 border-style: outset;
 height: 50px;
 width: 100px;
@@ -51,7 +51,7 @@ padding: 10px;
 background-color: #b62f26;
 border-color: #b62f26;
 text-align: center;
-color: white;
+color: #ffffff;
 border-style: outset;
 height: 50px;
 width: 100px;
@@ -93,11 +93,6 @@ padding-left: 40px;
 #overview_p {
 text-align: center;
 font-size:20px;
-}
-
-#other_dishes img {
-height:250px;
-width:350px ;
 }
 
 #soup {
@@ -159,7 +154,7 @@ body {
 
 .sf-back-to-top {
     background-color: #50A1CB; /* button color */
-    color: white; /* text/arrow color */ 
+    color: #ffffff; /* text/arrow color */ 
     display: none;
     z-index: 999;
     /* float in bottom right corner */
@@ -228,6 +223,9 @@ h4 {
   font-family:"Garamond", sans-serif;
   font-weight: bold;
 }
+
+
+/*dynamic form*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
 #social-buttons {
