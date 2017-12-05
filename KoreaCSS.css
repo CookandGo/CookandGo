@@ -57,12 +57,30 @@ background-color: #1C548D;
 color: #f2f2f2;
 }
 
+#soup img {
+  width:500px;
+  display: block;
+  margin: auto;
+  float: right;
+  right: 100px;
+  border:10px solid #ffffff;
+}
+
 #recipe_buttons {
 color: #4d0000;
 }
 
 #bread {
 background-color: #fcfcfc
+}
+
+#bread img {
+  width:500px;
+  display: block;
+  margin: auto;
+  float: right;
+  right: 100px;
+  border:10px solid #ffffff;
 }
 
 #other_dishes {
