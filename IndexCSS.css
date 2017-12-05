@@ -107,6 +107,10 @@ line-height:2.5;
   font-family:"Garamond", sans-serif;
   font-size:25px;
   margin: auto;
+  padding-top: 40px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  padding-left: 80px;
 }
 
 #group-photo {
