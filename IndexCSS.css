@@ -1,45 +1,86 @@
 #social-buttons button {
-color: white;
+color: #000000;
 }
 
 #social-buttons {
-background-color: #d9d9d9;
+background-color: #527a7a;
 text-align: center;
+color: #ffffff;
 }
 
 #social-buttons p {
 font-size:15pt;
 }
 
+#send-button {
+  width: 150px;
+  height: 50px;
+  background: #0066A2;
+  color: #ffffff;
+}
+
+.zoom {
+  zoom: 110%;
+}
+
 .btn-twitter {
 background-color: #00acee;
 border-color: #009ad5;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 .btn-facebook {
 background-color: #4868ac;
 border-color: #314776;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 .btn-pinterest {
 background-color: #b62f26;
 border-color: #b62f26;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
 }
 
 .jumbotron {
-min-height: 2000px;
+min-height: 1250px;
 background-image: url('images/indexbackgroundfinal.jpg');
 background-size: cover;
 background-attachment: fixed;
 }
 
 #heading {
-color: white;
+color: #ffffff;
 text-align: center;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-font-size: 70pt;
-font-family: Arial;
+font-size: 95pt;
+font-family:"Garamond", sans-serif;
+font-weight: bold;
+line-height:2.5;
+
 }
 
 .fork {
+  display: block;
+  margin: 40px auto 40px auto;
   width: 1100px;
   height: 180px;
   z-index: 900;
@@ -47,6 +88,8 @@ font-family: Arial;
 }
 
 .fork:hover {
+  display: block;
+  margin: 40px auto 40px auto;
   width: 1100px;
   height: 180px;
   z-index: 900;
@@ -57,10 +100,24 @@ font-family: Arial;
     text-align:center;
 }
 
+#Welcome {
+  text-align: center;
+  color: #000000;
+  font-family:"Garamond", sans-serif;
+  font-size:40px;
+}
+
 #group-photo {
     display: block;
     margin: auto;
     width:70%;
+}
+
+.col-sm-4 {
+  color: #ffffff;
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+  font-size:20px;
 }
 
 body {
@@ -78,7 +135,7 @@ body {
 
 .sf-back-to-top {
     background-color: #50A1CB; /* button color */
-    color: white; /* text/arrow color */ 
+    color: white; /* text/arrow color */
     display: none;
     z-index: 999;
     /* float in bottom right corner */
@@ -91,7 +148,7 @@ body {
     height: 50px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     /* round button */
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -105,7 +162,7 @@ a.sf-back-to-top {
     text-align: center;
     line-height: 1.6;
     padding-left: 2px;
-    padding-top: 4px;    
+    padding-top: 4px;
 }
 
 a.sf-back-to-top .arrow:before {
@@ -178,18 +235,6 @@ button:hover {
   transition: all 0.5s ease-in-out;
   background-color: #FDFEFF;
   color: #98554F;
-}
-
-.btn-twitter {  background-color: #98554F;
-  font-family: 'Open Sans', sans-serif;
-  max-width: 150px;
-  width: 80%;
-  border: 0;
-  color: #FDFEFF;
-  font-weight: 700;
-  font-size: 1.5rem;
-  padding: 10px 0;
-  cursor: pointer;
 }
 
 .btn-twitter:hover {
